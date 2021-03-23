@@ -45,3 +45,26 @@ body{
 	padding-left: 40px;
 	color: #206a5d;
 }
+
+/*underline animation */
+.nav-link::after {
+	content:'';
+	display: block;
+	width: 0;
+	height: 2px;
+	background-color: #ffd57e;
+	transition: width .3s;
+}
+
+.nav-link:hover::after {
+	width: 100%;
+	transition: width .3s;
+}
+
+.nav-link{
+	color: #206a5d;
+}
+
+.nav-link:hover{
+	color: #ffd57e;
+}
