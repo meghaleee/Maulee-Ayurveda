@@ -244,3 +244,115 @@ h2{
 .list-group-item{
 	padding: 20px 0 20px 30px;
 }
+
+
+
+@media only screen and (max-width: 319px) {
+       
+body{
+	 margin: 0;
+	 padding: 0;
+	 width: 100%;
+	 height: auto;
+}
+
+ .container-fluid {
+	 width: 100%;
+	 height: 100%;
+	 margin: 0;
+	 padding: 0;
+	 overflow: hidden;
+}
+
+/*navbar*/
+
+.navbar{
+	padding: 0;
+}
+
+ .navbar-nav{
+	 width: 100vw;
+	 flex-direction: row;
+	 display: flex;
+	 justify-content: center;   	
+}
+
+ .navbar-brand {
+	width: 100%;
+	height: 100%;
+	display: block;
+	font-size: 15px;
+
+}
+.nav-link:hover::after {
+   display: none;   
+}  
+
+.nav-item{
+	 font-size: 12px;
+	 padding-left: 10px;
+}
+
+.content{
+ width: 100vw;
+ height: auto;
+ display: inline-block;
+}
+
+/*rectangle*/
+  .rectangle-left{
+	width: 100%;
+	background-color: #f1f1e8;
+	height: 300px;
+}
+
+.rectangle-right{
+	 width: 100%;
+	 height: 250px; 
+}
+
+ .rectangle-left .start-text{
+ margin: 20px 0px 0px 20px;
+ color: #206a5d;
+ float: right;
+ font-size: 30px;
+ position: absolute;
+ left:0;
+}
+
+.rectangle-left .start-text h1{
+ font-size: 15px;
+ color:#537a73;
+}
+
+.rectangle-right .banner-image{
+ background-image: url(./ayurveda2.png);
+ background-size: cover;
+ height: 250px;
+ width: 500px;
+ position: absolute;
+ right: 0px;
+ background-repeat: no-repeat;
+ display: flex;
+ 
+}
+
+.button1{
+ border-color: #206a5d;
+ background-color: #206a5d;
+ padding: 10px;
+ font-size: 10px;
+ 
+}
+
+.button1:hover{
+border-color: #F0DCBA;
+background-color: #F0DCBA;
+text-decoration: none;
+}
+
+.button1 a{
+ text-decoration: none;
+ color: #ffffff;
+}
+}
