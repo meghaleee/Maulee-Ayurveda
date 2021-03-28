@@ -1,7 +1,7 @@
 # Maulee-Ayurveda
 
 ### [WEBSITE](https://mauleeayurveda.in) <br>
-#### This is the first website I designed post, my online course.
+#### This is the first website I designed, after coompleting my online course.
 
 #### The objective of designing this website was to create a easy-to-use, responsive website containing all the basic information regarding the clinic for the public.
 
