@@ -304,6 +304,61 @@ h2{
 	width: 100%;
 }
 
+/*footer */
+.footer {
+	background-color: #ffd57e;
+	position: absolute;
+	height: 100px;
+	display: block;
+	width: 100%;
+}
+
+.footer .row{
+	width: 100%;
+	
+}
+
+.center-footer{
+  text-align: center;
+	font-size: 15px;
+	margin:20px;
+}
+
+
+.center-footer a{
+	text-decoration: none;
+	color: #206a5d;
+}
+
+.center-footer a:hover{
+	color: #ffffff;
+}
+
+.bottom-area{
+	background-color: #ffd57e;
+	text-align: center;
+	font-size: 12px;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	color: #206a5d;
+}
+
+.footer-name {
+    text-decoration: none;
+    color: #206a5d;
+}
+
+.footer-name:hover {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.bold{
+	font-weight: bold;
+	color: #e79e4f;
+}
 
 
 @media only screen and (max-width: 319px) {
@@ -353,9 +408,9 @@ body{
 }
 
 .content{
- width: 100vw;
- height: auto;
- display: inline-block;
+ 	width: 100vw;
+ 	height: auto;
+ 	display: inline-block;
 }
 
 /*rectangle*/
@@ -371,48 +426,48 @@ body{
 }
 
  .rectangle-left .start-text{
- margin: 20px 0px 0px 20px;
- color: #206a5d;
- float: right;
- font-size: 30px;
- position: absolute;
- left:0;
+	margin: 20px 0px 0px 20px;
+ 	color: #206a5d;
+ 	float: right;
+ 	font-size: 30px;
+ 	position: absolute;
+ 	left:0;
 }
 
 .rectangle-left .start-text h1{
- font-size: 15px;
- color:#537a73;
+ 	font-size: 15px;
+ 	color:#537a73;
 }
 
 .rectangle-right .banner-image{
- background-image: url(./ayurveda2.png);
- background-size: cover;
- height: 250px;
- width: 500px;
- position: absolute;
- right: 0px;
- background-repeat: no-repeat;
- display: flex;
+ 	background-image: url(./ayurveda2.png);
+ 	background-size: cover;
+ 	height: 250px;
+ 	width: 500px;
+ 	position: absolute;
+ 	right: 0px;
+ 	background-repeat: no-repeat;
+ 	display: flex;
  
 }
 
 .button1{
- border-color: #206a5d;
- background-color: #206a5d;
- padding: 10px;
- font-size: 10px;
+ 	border-color: #206a5d;
+ 	background-color: #206a5d;
+ 	padding: 10px;
+ 	font-size: 10px;
  
 }
 
 .button1:hover{
-border-color: #F0DCBA;
-background-color: #F0DCBA;
-text-decoration: none;
+	border-color: #F0DCBA;
+	background-color: #F0DCBA;
+	text-decoration: none;
 }
 
 .button1 a{
- text-decoration: none;
- color: #ffffff;
+ 	text-decoration: none;
+ 	color: #ffffff;
 }
 
 /*rectangle 1*/
@@ -423,75 +478,75 @@ text-decoration: none;
 
 }
 
-  .rectangle-right1{
-  width: 100%;
-  background-color: #f1f1e8;
-  height: auto;
+.rectangle-right1{
+  	width: 100%;
+  	background-color: #f1f1e8;
+ 	 height: auto;
 }
 
   .about-text{
- text-align: justify;
- margin-left:20px;
- margin-right: 20px;
- font-size: 15px;
- color:#537a73;
+ 	text-align: justify;
+ 	margin-left:20px;
+ 	margin-right: 20px;
+ 	font-size: 15px;
+ 	color:#537a73;
 
 }
 
 .carousel-inner img {
- width: 100%;
- height: auto;
- align-items: center;
+ 	width: 100%;
+ 	height: auto;
+ 	align-items: center;
 }
 
 /*rectangle 2*/
 .rectangle-left2{
- width: 100%;
- height: auto;
- background-color: #f1f1e8;
+ 	width: 100%;
+ 	height: auto;
+ 	background-color: #f1f1e8;
 }
 
 .rectangle-right2{
-  width: 100%;
-  background-color: #ffffff;
-  height: auto;
+  	width: 100%;
+  	background-color: #ffffff;
+  	height: auto;
 }
 
 .rectangle-left2 .column-left{
- padding-left: 30px;
- width: 100%;
- border-bottom-style: solid;
- padding-bottom: 30px;
- border-bottom-width: 2px;
- color: #537a73;
- justify-content: flex-start;
+ 	padding-left: 30px;
+ 	width: 100%;
+ 	border-bottom-style: solid;
+ 	padding-bottom: 30px;
+ 	border-bottom-width: 2px;
+ 	color: #537a73;
+ 	justify-content: flex-start;
 }
 
 .rectangle-left2 .column-right{
- width: 100%;
- padding-bottom: 30px;
- border-bottom-style: solid;
- border-bottom-width: 2px;
- color:#537a73;
- justify-content: flex-start;
- padding-left: 30px;
- padding-top: 30px;
+ 	width: 100%;
+ 	padding-bottom: 30px;
+ 	border-bottom-style: solid;
+ 	border-bottom-width: 2px;
+ 	color:#537a73;
+ 	justify-content: flex-start;
+ 	padding-left: 30px;
+ 	padding-top: 30px;
 }
 
 .rectangle-left2 .column-down{
- width: 100%;
- position: relative;
- padding-top: 30px;
- padding-left: 30px;
- color:#537a73;
- justify-content: flex-start;
- padding-bottom: 30px;
+ 	width: 100%;
+ 	position: relative;
+ 	padding-top: 30px;
+ 	padding-left: 30px;
+ 	color:#537a73;
+ 	justify-content: flex-start;
+ 	padding-bottom: 30px;
 }
 
 .rectangle-left2 a{
- color:#edc988;
- text-decoration: none;
- cursor: pointer;
+ 	color:#edc988;
+ 	text-decoration: none;
+ 	cursor: pointer;
 }
 
 
