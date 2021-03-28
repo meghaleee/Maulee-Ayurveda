@@ -549,5 +549,60 @@ body{
  	cursor: pointer;
 }
 
+/*services*/
+.services-info .row{
+	justify-content: center;
+}
+
+h2{
+	margin:50px 0 50px 30px;
+    font-weight: bold;
+    font-size: 30px;
+    justify-content: flex-start;
+}
+
+/*footer */
+.footer {
+	background-color: #ffd57e;
+	position: absolute;
+	height: 100px;
+	display: block;
+	width: 100%;
+}
+
+.footer .row{
+	width: 100%;
+}
+
+.center-footer{
+  text-align: center;
+	font-size: 12px;
+	margin:20px;
+}
+
+.center-footer a{
+	text-decoration: none;
+	color: #206a5d;
+}
+
+.center-footer a:hover{
+	color: #ffffff;
+}
+
+.bottom-area{
+	background-color: #ffd57e;
+	text-align: center;
+	font-size: 10px;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	color: #206a5d;
+}
+
+.bold{
+	font-weight: bold;
+	color: #edc988;
+}
 
 }
