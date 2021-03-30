@@ -737,33 +737,7 @@ text-decoration: none;
  color:#206a5d;
 }
 
-/*rectangle 1*/
-  .rectangle-left1{
-	width: 100%;
-   background-color: #ffffff;
-   height: auto;
 
-}
-
-  .rectangle-right1{
-  width: 100%;
-  background-color: #f1f1e8;
-  height: auto;
-}
-
-  .about-text{
- text-align: justify;
- margin-left:20px;
- margin-right: 20px;
- font-size: 15px;
- color:#537a73;
-}
-
-.carousel-inner img {
- width: 100%;
- height: auto;
- align-items: center;
-}
 
 
 }	
