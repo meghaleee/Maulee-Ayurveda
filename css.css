@@ -1012,4 +1012,34 @@ h2{
 	
 }
 
+.rectangle-left1{
+	width: 100%;
+	background-color: #ffffff;
+	height: auto;
+
+}
+
+    .rectangle-right1{
+     width: 100%;
+	 background-color: #f1f1e8;
+     height: auto;
+}
+
+     .about-text{
+    text-align: justify;
+    margin-left:20px;
+    margin-right: 20px;
+    font-size: 17px;
+}
+
+    /*services*/
+   .services-info .row{
+	justify-content: center;
+}
+
+.carousel-inner img {
+    width: 100%;
+    height: auto;
+    align-items: center;
+  }
 }
