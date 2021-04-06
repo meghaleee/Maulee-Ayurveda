@@ -1209,11 +1209,46 @@ h2{
    
 }
 
-
    .about-text{
    text-align: justify;
    margin-left:30px;
    margin-right: 40px;
+}
+
+}
+
+@media only screen and (min-width: 1499px) {
+
+	body{
+	   margin: 0;
+	   padding: 0;
+	   width: 100%;
+	   height: auto;
+
+   }
+
+   .container-fluid{
+	   width: 100%;
+   }
+
+   .navbar-nav{
+	   font-size: 1vw;
+   }
+   
+.rectangle-right .banner-image{
+   position: absolute;
+   right: 0px;
+   display: block;
+   
+}
+
+
+.footer {
+   background-color: #ffd57e;
+   position: absolute;
+   height: 100px;
+   display: block;
+   width: 100%;
 }
 
 }
