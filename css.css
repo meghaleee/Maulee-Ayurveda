@@ -1,10 +1,20 @@
+:root {
+	--backgroundwhite: #ffffff;
+	--backgroundnotwhite: #f1f1e8;
+	--headings: #206a5d;
+	--paragraphs: #537a73;
+	--hover: #eeb76b;
+	--highlight::#e79e4f;
+	--footer:#eeb76b;
+  }
+
 body{
 	width: 100%;
 	height: 100%;
 	font-family: 'Libre Baskerville', serif;
-	color: #206a5d;
 	margin: auto;
 	padding: auto;
+	color: var(--headings);
 }
 
 .container-fluid{
@@ -28,7 +38,6 @@ body{
 .navbar-brand{
 	margin-top: 0;
 	padding-left: 20px;
-	color: #206a5d;
 	cursor: pointer;
 	align-items: center;
 }
@@ -43,7 +52,7 @@ body{
 
 .nav-item{
 	padding-left: 40px;
-	color: #206a5d;
+	color: var(--headings);
 }
 
 /*underline animation */
@@ -52,7 +61,7 @@ body{
 	display: block;
 	width: 0;
 	height: 2px;
-	background-color: #ffd57e;
+	background-color: var(--hover);
 	transition: width .3s;
 }
 
@@ -62,18 +71,18 @@ body{
 }
 
 .nav-link{
-	color: #206a5d;
+	color: var(--headings);
 }
 
 .nav-link:hover{
-	color: #ffd57e;
+	color: var(--hover);
 }
 
 
 /* section */
 
 #first-part {
-	background-color: #f1f1e8;
+	background-color: var(--backgroundnotwhite);
 }
 
  .content{
@@ -87,19 +96,17 @@ body{
 
 .rectangle-left{
 	 width: 100%;
-	 height: 660px;
+	 height: 40em;
 }
 
 .rectangle-right{
 	width: 100%;
-	height: 660px;
-	
+	height: 40em;	
 }
 
 .rectangle-left .start-text{
 	margin-left: -10px;
 	margin-top: 150px;
-	color: #206a5d;
 	float: left;
 	font-size: 50px;
 	position: absolute;
@@ -109,20 +116,21 @@ body{
 
 .rectangle-left .start-text h1{
 	font-size: 20px;
-	color:#206a5d;
+	color: var(--headings);
 	margin-top: -10px;
 }
 
 .button1{
-    border-color: #206a5d;
-    background-color: #206a5d;
+    border-color: var(--hover);
+    background-color: var(--hover);
     padding: 10px;
-    font-size: 15px;
+	font-size: 15px;
+	margin-top: 2em;
 }
 
 .button1:hover{
-   border-color:#ffd57e;
-   background-color: #ffd57e;
+   border-color: var(--paragraphs);
+   background-color: var(--paragraphs);
    text-decoration: none;
 }
 
@@ -132,12 +140,12 @@ body{
 }
 
 .rectangle-right .banner-image{
-	background-image: url(./ayurveda2.png);
+	background-image: url(images/ayurveda2.png);
     background-size: cover;
-    height: 660px;
-    width: 900px;
+    height: 40em;
+    width: 60em;
     position: absolute;
-    right: 0px;
+    right: 0;
     background-repeat: no-repeat;
     display: block;
 }
@@ -145,7 +153,7 @@ body{
 /*rectangle 1*/
 
 #about {
-	background-color: #f1f1e8;
+	background-color: var(--backgroundnotwhite);
 }
 
 .rectangle-left1{
@@ -162,7 +170,7 @@ body{
     text-align: justify;
     margin-left:50px;
     margin-right: 50px;
-    color:#537a73;
+    color: var(--paragraphs);
 }
 
 .carousel-inner img {
@@ -176,24 +184,24 @@ body{
 
 .rectangle-left2{
 	width: 50%;
-	height: 660px;
-    background-color: #f1f1e8;
+	height: 60em;
+    background-color: var(--backgroundnotwhite);
 }
 
 .rectangle-right2{
      width: 50%;
-	 background-color: #ffffff;
-     height: 660px;
+	 background-color:  var(--backgroundwhite);
+     height: 60em;
 }
 
 .rectangle-left2 .column-left{
-	padding-left: 0px;
+	padding-left: 0;
 	text-align: justify;
     width: 25%;
     border-bottom-style: solid;
     padding-bottom: 10px;
     border-bottom-width: 2px;
-    columns: #537a73;
+    columns: var(--paragraphs);
     justify-content: flex-start;
 }
 
@@ -203,9 +211,9 @@ body{
     padding-bottom: 10px;
     border-bottom-style: solid;
     border-bottom-width: 2px;
-    color:#537a73;
+    color: var(--paragraphs);
     justify-content: flex-start;
-    padding-left: 0px;
+    padding-left: 0;
 }
 
 .rectangle-left2 .column-down{
@@ -213,12 +221,12 @@ body{
 	position: relative;
 	padding-top: 50px;
 	padding-left: 60px;
-	color:#537a73;
+	color: var(--paragraphs);
 	justify-content: flex-start;
 }
 
 .rectangle-left2 a{
-	color:#e79e4f;
+	color;
 	text-decoration: none;
 	cursor: pointer;
 }
