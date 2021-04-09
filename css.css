@@ -4,7 +4,7 @@
 	--headings: #206a5d;
 	--paragraphs: #537a73;
 	--hover: #eeb76b;
-	--highlight::#e79e4f;
+	--highlight: #e79e4f;
 	--footer:#eeb76b;
   }
 
@@ -104,19 +104,20 @@ body{
 	height: 40em;	
 }
 
-.rectangle-left .start-text{
+.rectangle-left .start-text {
 	margin-left: -10px;
-	margin-top: 150px;
+	margin-top: 0;
 	float: left;
-	font-size: 50px;
+	font-size: 5em;
 	position: absolute;
 	left: 10px;
 	z-index: 1;
+	color: var(--headings);
 }
 
-.rectangle-left .start-text h1{
-	font-size: 20px;
-	color: var(--headings);
+.rectangle-left .start-text h2{
+	font-size: 0.5em;
+	color: var(--paragraphs);
 	margin-top: -10px;
 }
 
@@ -129,8 +130,8 @@ body{
 }
 
 .button1:hover{
-   border-color: var(--paragraphs);
-   background-color: var(--paragraphs);
+   border-color: var(--headings);
+   background-color: var(--headings);
    text-decoration: none;
 }
 
@@ -226,14 +227,14 @@ body{
 }
 
 .rectangle-left2 a{
-	color;
+	color: var(--highlight);
 	text-decoration: none;
 	cursor: pointer;
 }
 
 /*services*/
 #services {
-	background-color: #ffffff;
+	background-color: var(--backgroundwhite);
 }
 
 .services-info .row{
@@ -242,7 +243,7 @@ body{
 	margin-top: 50px;
 }
 
-h2{
+h1{
 	margin:50px 0 30px 30px;
     font-weight: bold;
     font-size: 40px;
@@ -257,13 +258,13 @@ h2{
 .rectangle-left2{
 	width: 50%;
 	height: 660px;
-    background-color: #f1f1e8;
+    background-color:var(--backgroundnotwhite);
 
 }
 
 .rectangle-right2{
      width: 50%;
-	 background-color: #ffffff;
+	 background-color: var(--backgroundwh);
      height: 660px;
 }
 
@@ -274,7 +275,7 @@ h2{
     border-bottom-style: solid;
     padding-bottom: 10px;
     border-bottom-width: 2px;
-    columns: #537a73;
+    color: var(--paragraphs);
     justify-content: flex-start;
 }
 
@@ -284,7 +285,7 @@ h2{
     padding-bottom: 10px;
     border-bottom-style: solid;
     border-bottom-width: 2px;
-    color:#537a73;
+    color: var(--paragraphs);
     justify-content: flex-start;
     padding-left: 0px;
 }
@@ -294,12 +295,12 @@ h2{
 	position: relative;
 	padding-top: 50px;
 	padding-left: 60px;
-	color:#537a73;
+	color: var(--paragraphs);
 	justify-content: flex-start;
 }
 
 .rectangle-left2 a{
-	color:#e79e4f;
+	color: var(--highlight);
 	text-decoration: none;
 	cursor: pointer;
 }
@@ -314,7 +315,7 @@ h2{
 
 /*footer */
 .footer {
-	background-color: #ffd57e;
+	background-color: var(--footer);
 	position: absolute;
 	height: 100px;
 	display: block;
@@ -335,37 +336,37 @@ h2{
 
 .center-footer a{
 	text-decoration: none;
-	color: #206a5d;
+	color: var(--headings);
 }
 
 .center-footer a:hover{
-	color: #ffffff;
+	color: var(--backgroundwhite);
 }
 
 .bottom-area{
-	background-color: #ffd57e;
+	background-color: var(--footer);
 	text-align: center;
 	font-size: 12px;
 	position: absolute;
 	bottom: 0;
 	left: 0;
 	width: 100%;
-	color: #206a5d;
+	color: var(--headings);
 }
 
 .footer-name {
     text-decoration: none;
-    color: #206a5d;
+    color: var(--headings);
 }
 
 .footer-name:hover {
-    color: #ffffff;
+    color: var(--backgroundwhite);
     text-decoration: none;
 }
 
 .bold{
 	font-weight: bold;
-	color: #e79e4f;
+	color: var(--highlight);
 }
 
 
@@ -424,71 +425,62 @@ body{
 /*rectangle*/
   .rectangle-left{
 	width: 100%;
-	background-color: #f1f1e8;
-	height: 300px;
+	height: 24em;
 }
 
 .rectangle-right{
 	 width: 100%;
-	 height: 250px; 
+	 height: 16em; 
 }
 
  .rectangle-left .start-text{
-	margin: 20px 0px 0px 20px;
- 	color: #206a5d;
+	margin: 50px 0px 0px 20px;
  	float: right;
- 	font-size: 30px;
+ 	font-size: 2em;
  	position: absolute;
  	left:0;
 }
 
-.rectangle-left .start-text h1{
- 	font-size: 15px;
- 	color:#537a73;
+.rectangle-left .start-text h2{
+ 	font-size: 0.6em;
+	 margin-left: 0;
 }
 
 .rectangle-right .banner-image{
- 	background-image: url(./ayurveda2.png);
  	background-size: cover;
- 	height: 250px;
- 	width: 500px;
+ 	height: 20em;
+ 	width: 30em;
  	position: absolute;
- 	right: 0px;
+ 	right: 0;
  	background-repeat: no-repeat;
  	display: flex;
  
 }
 
 .button1{
- 	border-color: #206a5d;
- 	background-color: #206a5d;
+ 	
  	padding: 10px;
  	font-size: 10px;
- 
+    margin-top: -1em;
 }
 
 .button1:hover{
-	border-color: #F0DCBA;
-	background-color: #F0DCBA;
 	text-decoration: none;
 }
 
 .button1 a{
  	text-decoration: none;
- 	color: #ffffff;
 }
 
 /*rectangle 1*/
 .rectangle-left1{
 	width: 100%;
-   background-color: #ffffff;
    height: auto;
 
 }
 
 .rectangle-right1{
   	width: 100%;
-  	background-color: #f1f1e8;
  	 height: auto;
 }
 
@@ -497,7 +489,6 @@ body{
  	margin-left:20px;
  	margin-right: 20px;
  	font-size: 15px;
- 	color:#537a73;
 
 }
 
@@ -511,12 +502,11 @@ body{
 .rectangle-left2{
  	width: 100%;
  	height: auto;
- 	background-color: #f1f1e8;
+ 	
 }
 
 .rectangle-right2{
   	width: 100%;
-  	background-color: #ffffff;
   	height: auto;
 }
 
@@ -526,7 +516,6 @@ body{
  	border-bottom-style: solid;
  	padding-bottom: 30px;
  	border-bottom-width: 2px;
- 	color: #537a73;
  	justify-content: flex-start;
 }
 
@@ -535,7 +524,6 @@ body{
  	padding-bottom: 30px;
  	border-bottom-style: solid;
  	border-bottom-width: 2px;
- 	color:#537a73;
  	justify-content: flex-start;
  	padding-left: 30px;
  	padding-top: 30px;
@@ -546,13 +534,11 @@ body{
  	position: relative;
  	padding-top: 30px;
  	padding-left: 30px;
- 	color:#537a73;
  	justify-content: flex-start;
  	padding-bottom: 30px;
 }
 
 .rectangle-left2 a{
- 	color:#edc988;
  	text-decoration: none;
  	cursor: pointer;
 }
@@ -571,7 +557,6 @@ h2{
 
 /*footer */
 .footer {
-	background-color: #ffd57e;
 	position: absolute;
 	height: 100px;
 	display: block;
@@ -590,27 +575,23 @@ h2{
 
 .center-footer a{
 	text-decoration: none;
-	color: #206a5d;
+
 }
 
-.center-footer a:hover{
-	color: #ffffff;
-}
+
 
 .bottom-area{
-	background-color: #ffd57e;
 	text-align: center;
 	font-size: 10px;
 	position: absolute;
 	bottom: 0;
 	left: 0;
 	width: 100%;
-	color: #206a5d;
 }
 
 .bold{
 	font-weight: bold;
-	color: #edc988;
+
 }
 
 }
